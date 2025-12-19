@@ -1,7 +1,7 @@
 # Simplified Theremin (Terminvox) Recreation
 
 A modern, interactive recreation of the classic Theremin instrument using hand gestures detected via webcam. This project leverages p5.js for canvas rendering and audio synthesis, ml5.js for real-time hand pose estimation. It allows users to control pitch and volume with one or two hands, creating an intuitive, contactless musical experience.
-
+[PLAY HERE](berlogabob.github.io/terminvox/)
 ## Project Overview
 
 This is a simplified digital version of the original Theremin (also known as Terminvox), an electronic musical instrument invented in 1920 by Leon Theremin. Instead of antennas, it uses computer vision to track hand positions and gestures. The system acts as an intelligent agent that perceives hand movements, decides on audio parameters based on rules, and acts by generating sound and some visual feedback.
