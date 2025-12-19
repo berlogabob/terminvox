@@ -89,6 +89,3 @@ For questions or contributions, contact me with GitHub issues.
 
 - **p5.sound Documentation (Oscillator)**: Reference for audio synthesis in p5.js, used for generating tones.  
   [p5.Oscillator - p5.js Reference](https://p5js.org/reference/p5.sound/p5.Oscillator/)
-
-- **p5.js Cheat Sheet**: Helpful quick reference for beginners on p5.js structure, math, shapes, and attributes.  
-  [p5.js Cheat Sheet by Ben Moren](https://benmoren.com) (Compiled by Ben Moren; available as PDF or online resource)
