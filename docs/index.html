@@ -6,8 +6,42 @@
     <title>Simplified Theremin Agent</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js"></script><script src="https://cdn.jsdelivr.net/npm/p5.js-compatibility@0.2.0/src/data.js"></script><script src="https://cdn.jsdelivr.net/npm/p5.js-compatibility@0.2.0/src/shapes.js"></script><script src="https://cdn.jsdelivr.net/npm/p5.js-compatibility@0.2.0/src/preload.js"></script><script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
     <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css?v=2">
   </head>
   <body>
+    <div id="top-bar">
+      <h1>Terminvox - Theremin Emulator</h1>
+      <p class="instructions">👌 Pinch to Play | ✋ Move Up/Down for Pitch | 🤚 Second Hand for Volume</p>
+    </div>
+    
+    <div id="waveform-panel">
+      <h3>Wave Type</h3>
+      <div id="waveform-buttons-container"></div>
+    </div>
+    
+    <div id="meters-panel">
+      <div class="meter">
+        <div class="meter-label">Pitch</div>
+        <div class="meter-bar">
+          <div class="meter-fill" id="pitch-meter"></div>
+        </div>
+        <div class="meter-value" id="pitch-value">0 Hz</div>
+      </div>
+      <div class="meter">
+        <div class="meter-label">Volume</div>
+        <div class="meter-bar">
+          <div class="meter-fill" id="volume-meter"></div>
+        </div>
+        <div class="meter-value" id="volume-value">0%</div>
+      </div>
+    </div>
+    
+    <div id="canvas-container"></div>
+    
+    <div id="bottom-bar">
+      <p>Student: Andrey Dyakov | IADE Creative Computing and Artificial Intelligence</p>
+    </div>
+    
     <script src="sketch.js"></script>
   
 
